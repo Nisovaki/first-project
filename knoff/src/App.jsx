@@ -1,6 +1,9 @@
+import { Header } from "./views/Header/Header";
+
 const App = () => (
   <>
-    <h1>Hello word</h1>
+    <Header />
+    <p>Text</p>
   </>
 );
 
