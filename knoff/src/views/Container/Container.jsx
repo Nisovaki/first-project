@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
-/* eslint-disable semi */
+import "./style.scss";
+
 export const Container = (props) => (
   <div className="container">{props.children}</div>
-)
+);
