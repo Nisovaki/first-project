@@ -1,15 +1,13 @@
 /* eslint-disable prettier/prettier */
-/* eslint-disable react/jsx-no-undef */
-/* eslint-disable prettier/prettier */
-/* eslint-disable quotes */
 /* eslint-disable no-unused-vars */
-/* eslint-disable semi */
+import { Logo } from "../../components/Logo/Logo.jsx";
+import { Navigation } from "../../components/Navigation/Navigation.jsx";
+import { SearchForm } from "../../components/SearchForm/SearchForm.jsx";
 import { Container } from "../Container/Container.jsx";
-import s from './Header.module.scss';
-
+import s from "./Header.module.scss";
 export const Header = () => (
   <header className="{s.header}">
-    <Container>
+    <Container className="{s.container}">
       <div className="{s.logo}">
         <Logo />
       </div>
