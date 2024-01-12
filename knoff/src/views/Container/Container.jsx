@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
-import "./style.scss";
+/* eslint-disable no-unused-vars */
+import s from "./Container.module.scss";
 
 export const Container = (props) => (
-  <div className="container">{props.children}</div>
+  <div className="{s.container}">{props.children}</div>
 );
