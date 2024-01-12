@@ -4,7 +4,7 @@ import { Container } from "../Container/Container";
 
 /* eslint-disable semi */
 export const Header = () => (
-  <header>
+  <header className="{s.header}">
     <Container>
       <p>Hello</p>
     </Container>
