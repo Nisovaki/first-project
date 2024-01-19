@@ -1,4 +1,4 @@
-import { Header } from "./views/Header/Header";
+import { Header } from "./views/Header/Header.jsx";
 
 const App = () => (
   <>

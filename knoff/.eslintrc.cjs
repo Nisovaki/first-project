@@ -6,7 +6,6 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
@@ -18,7 +17,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off",
+    "react/prop-types": 0,
     "no-console": "off",
     "no-loop-func": ["error"],
     eqeqeq: ["error", "always"],
@@ -143,7 +142,7 @@ module.exports = {
     "max-len": [
       "error",
       {
-        code: 80,
+        code: 100,
         tabWidth: 2,
         ignoreUrls: true,
         ignorePattern: "goog.(module|require)",
